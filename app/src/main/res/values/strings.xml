@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">the_chance1</string>
+    <string name="person">Person</string>
+    <string name="ahmed_hassan">Ahmed hassan</string>
+    <string name="_3_hr">3 hr</string>
+    <string name="engineer">Engineer</string>
+    <string name="russian">Russian</string>
+    <string name="uk">UK</string>
+    <string name="_5_days_ago">5 Days ago</string>
+    <string name="logo">Logo</string>
+    <string name="_150_reviews">(150 Reviews)</string>
+    <string name="_4_5">4.5</string>
+</resources>

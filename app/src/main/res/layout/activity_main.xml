@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="@dimen/main_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_card"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/high_image_size"
+            android:layout_height="@dimen/high_image_size"
+            android:layout_marginVertical="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:contentDescription="@string/person"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/ahmed_hassan"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/main_text_size" />
+
+                <TextView
+                    android:layout_width="38dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_ground"
+                    android:fontFamily="@font/dm_sans"
+                    android:gravity="center"
+                    android:text="@string/_3_hr"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/engineer"
+                    android:textColor="@color/infoText"
+                    android:textSize="@dimen/small_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/russian"
+                    android:textColor="@color/infoText"
+                    android:textSize="@dimen/small_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="@dimen/small_image"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/margin_tiny"
+                    android:contentDescription="@string/logo"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/uk"
+                    android:textColor="@color/country_color"
+                    android:textSize="@dimen/small_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/_5_days_ago"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/small_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/_150_reviews"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_tiny"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/_4_5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_text_size" />
+
+                <ImageView
+                    android:layout_width="@dimen/small_image"
+                    android:layout_height="@dimen/small_image"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/logo"
+                    android:src="@drawable/star_4" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
